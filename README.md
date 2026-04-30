@@ -51,7 +51,7 @@ project/
 ### 1. Clonar repositorio
 
 ```id="2t6b7o"
-git clone https://github.com/tu-usuario/tu-repo.git
+git clone https://github.com/luischavez23/wedding_gye
 cd tu-repo
 ```
 
