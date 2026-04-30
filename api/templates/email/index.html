@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nueva Confirmación</title>
+</head>
+
+<body style="margin:0; padding:0; background:#0A0A0A; font-family: Arial, sans-serif;">
+
+  <!-- Wrapper -->
+  <table
+    width="100%"
+    cellpadding="0"
+    cellspacing="0"
+    border="0"
+    style="background:#0A0A0A; padding: 30px 15px;"
+  >
+    <tr>
+      <td align="center">
+
+        <!-- Card principal -->
+        <table
+          width="100%"
+          cellpadding="0"
+          cellspacing="0"
+          border="0"
+          style="
+            max-width: 600px;
+            width: 100%;
+            background: #161616;
+            border-top: 4px solid #C5A059;
+            border-radius: 8px;
+            padding: 40px 24px;
+            color: #FFFFFF;
+          "
+        >
+
+          <!-- Título -->
+          <tr>
+            <td align="center" style="padding-bottom: 10px;">
+              <h1
+                style="
+                  margin: 0;
+                  font-size: 28px;
+                  line-height: 1.4;
+                  font-style: italic;
+                  font-weight: 400;
+                  color: #C5A059;
+                "
+              >
+                Nueva Confirmación ✨
+              </h1>
+            </td>
+          </tr>
+
+          <!-- Línea decorativa -->
+          <tr>
+            <td align="center" style="padding-bottom: 30px;">
+              <div
+                style="
+                  width: 200px;
+                  height: 2px;
+                  background: #C5A059;
+                "
+              ></div>
+            </td>
+          </tr>
+
+          <!-- Nombre -->
+          <tr>
+            <td style="padding-bottom: 24px;">
+              <p
+                style="
+                  margin: 0;
+                  font-size: 11px;
+                  text-transform: uppercase;
+                  letter-spacing: 2px;
+                  color: #C5A059;
+                  font-weight: bold;
+                "
+              >
+                Nombre
+              </p>
+
+              <p
+                style="
+                  margin: 10px 0 0 0;
+                  font-size: 18px;
+                  line-height: 1.6;
+                  color: #FFFFFF;
+                  font-style: italic;
+                  word-break: break-word;
+                "
+              >
+                {{name}}
+              </p>
+            </td>
+          </tr>
+
+          <!-- Confirmación -->
+          <tr>
+            <td style="padding-bottom: 24px;">
+              <p
+                style="
+                  margin: 0;
+                  font-size: 11px;
+                  text-transform: uppercase;
+                  letter-spacing: 2px;
+                  color: #C5A059;
+                  font-weight: bold;
+                "
+              >
+                Confirmación
+              </p>
+
+              <p
+                style="
+                  margin: 10px 0 0 0;
+                  font-size: 18px;
+                  line-height: 1.6;
+                  color: #FFFFFF;
+                  font-style: italic;
+                "
+              >
+                {{attend}}
+              </p>
+            </td>
+          </tr>
+
+          <!-- Mensaje -->
+          <tr>
+            <td style="padding-bottom: 30px;">
+              <p
+                style="
+                  margin: 0;
+                  font-size: 11px;
+                  text-transform: uppercase;
+                  letter-spacing: 2px;
+                  color: #C5A059;
+                  font-weight: bold;
+                "
+              >
+                Mensaje
+              </p>
+
+              <p
+                style="
+                  margin: 10px 0 0 0;
+                  font-size: 16px;
+                  line-height: 1.8;
+                  color: #DDDDDD;
+                  font-style: italic;
+                  word-break: break-word;
+                "
+              >
+                {{message}}
+              </p>
+            </td>
+          </tr>
+          <div style="
+                  margin: 10px 0 0 0;
+                  font-size: 14px;
+                  line-height: 1.6;
+                  color: #FFFFFF;
+                ">
+            <h3 style="
+                  margin: 0;
+                  font-size: 11px;
+                  text-transform: uppercase;
+                  letter-spacing: 2px;
+                  color: #C5A059;
+                  font-weight: bold;
+                ">Resumen</h3>
+  
+            <p >Confirmados: {{ attending_count }}</p>
+            <p>No asistirán: {{ not_attending_count }}</p>
+            <p>Total invitados: {{ total_guests }}</p>
+          </div>
+          
+
+          <!-- Footer -->
+          <tr>
+            <td
+              align="center"
+              style="
+                padding-top: 30px;
+                border-top: 1px solid rgba(197,160,89,0.15);
+              "
+            >
+              <p
+                style="
+                  margin: 0;
+                  font-size: 24px;
+                  line-height: 1.5;
+                  color: #C5A059;
+                  font-style: italic;
+                "
+              >
+                Guadalupe & Eduardo
+              </p>
+
+              <p
+                style="
+                  margin: 12px 0 0 0;
+                  font-size: 11px;
+                  text-transform: uppercase;
+                  letter-spacing: 3px;
+                  color: rgba(255,255,255,0.45);
+                "
+              >
+                Nuestra Boda 2026
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
