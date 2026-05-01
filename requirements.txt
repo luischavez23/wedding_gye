@@ -1,5 +1,0 @@
-gunicorn==25.3.0
-packaging==26.2
-psycopg2-binary==2.9.12
-python-dotenv==1.2.2
-whitenoise==6.12.0
